@@ -1,0 +1,47 @@
+:root {
+  --general-bg: rgb(249, 247, 244);
+  --word-emphasis-bg: #c1c3a0dc;
+  --selection-color: rgba(97, 111, 85, 0.56);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+::selection {
+  background-color: var(--selection-color);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  background-color: var(--general-bg);
+  width: 100vw;
+  max-width: 2000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+  width: 50%;
+}
+
+.text-emphasis {
+  font-family: 'Roboto Mono', sans-serif;
+  padding: 5px 1px 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--word-emphasis-bg);
+}
+
+.word-emphasis {
+  font-family: 'Roboto Mono', sans-serif;
+}
