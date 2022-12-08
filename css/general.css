@@ -17,6 +17,10 @@ html {
   scroll-behavior: smooth;
 }
 
+h1 {
+  white-space: pre;
+}
+
 .container {
   background-color: var(--general-bg);
   width: 100vw;
