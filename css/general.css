@@ -1,5 +1,6 @@
 :root {
   --general-bg: rgb(249, 247, 244);
+  --bg-darker: rgb(244, 241, 234);
   --word-emphasis-bg: #c1c3a0dc;
   --selection-color: rgba(97, 111, 85, 0.56);
 }
